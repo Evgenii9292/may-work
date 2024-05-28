@@ -1,0 +1,36 @@
+There is no direct programming code available to calculate the square of a planet. However, you can calculate the square of a number using various programming languages. Here are examples in C and Python:
+
+1. **C Program to Calculate Square of a Number** [source](https://www.tutorialgateway.org/c-program-to-calculate-square-of-a-number/)
+
+```C
+#include<stdio.h>
+int main() {
+    int number, Square;
+    printf(" \n Please enter an integer number: ");
+    scanf("%d", &number);
+    Square = Calculate_Square(number);
+    printf("\n Square of %d is %d", number, Square);
+    return 0;
+}
+
+int Calculate_Square(int Number) {
+    return Number * Number;
+}
+```
+
+2. **Python Program to Calculate Square of a Given Number** [source](https://www.geeksforgeeks.org/python-profram-to-calculate-square-of-a-given-number/)
+
+```Python
+def Calculate_Square(Number):
+    return Number * Number
+
+if __name__ == '__main__':
+    number = int(input("Please enter an integer number: "))
+    print("Square of", number, "is", Calculate_Square(number))
+```
+
+These code examples demonstrate how to calculate the square of a number. However, to calculate the square of a planet, you would need to use astronomical calculations, which are beyond the scope of these programming examples. 
+
+For a tutorial on computing planetary positions, you can refer to the following resource: [Computing planetary positions - a tutorial with worked examples](https://stjarnhimlen.se/comp/tutorial.html). 
+
+In case you need help with a specific programming language, you can also ask a question on Quora, like this one: [How to square in C programming](https://www.quora.com/How-do-I-square-in-C-programming).
